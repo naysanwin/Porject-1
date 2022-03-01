@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*font-family: 'Inter', sans-serif; for head */
+    /*font-family: 'Inter', sans-serif; for para */
+}
+
+.First-part {
+    padding: 40px 80px;
+    background-color: black;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+}
+
+.nav-links a{
+    color: #bebebe;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    margin-left: 20px;
+}
+
+.nav-btn button {
+    background-color: yellow;
+    font-family: 'Prata', serif;
+    border: none;
+    font-size: 17px;
+    padding: 10px 20px;
+}
+
+.main-nav {
+    /*margin: 30px;*/
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}  
+
+/*-------------------- Mid -----------------*/
+
+.mid-para {
+    width: 35%;
+    
+}
+.title {
+    color: white;
+    font-family: 'Prata', serif;
+    margin-top: 50px;  
+}
+
+.para {
+    color:#bebebe;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+
+.mid-brand {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid-mention {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+/*-------------------- Pone 2 ku -----------------*/
+
+
+
+.mention-img {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.mention-link a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    font-size: 25px;
+}
+
+/*-------------------- Second Part -----------------*/
+
+.grayText h2 {
+    color: white;
+    font-family: 'Prata', serif;
+}
+
+.grayText p {
+    color: #bebebe;
+    font-family: 'Inter', sans-serif;
+    margin-top: 18px; 
+    font-size: 0.83em; 
+}
+
+
+.grayText {
+    column-count: 2;
+    column-gap: 10%;
+    padding: 35px 80px;
+    background-color: #41424c;
+}
+
+
+/*----------------------Third Part ------------------*/
+
+.Third-part {
+    padding: 40px 80px;
+    background-color: black;
+}  
+
+.text {
+    width: 50%;
+}
+
+.text h2 {
+    color: white;
+    font-family: 'Prata', serif;
+}
+
+.text p {
+    color: #bebebe;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.83em; 
+    padding: 12px 0;
+}
+
+/*-----------------------footer -----------------*/
+
+.Fourth-part {
+    padding: 14px 80px;
+    background-color: #41424c;
+    display: flex;
+    justify-content: space-between;
+}  
+
+.name a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+}
+
+/*------------------ Responsive for tablet view ------------*/
+
+@media screen and (min-width: 768px) and 
+(max-width: 1023px) {
+    
+    .mid-para {
+        width: 100%;
+    }
+    .title {
+        font-size: 57px;
+    }
+    .mid-brand {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 30px;
+        margin: 20px;
+    }
+    .mid-brand img {
+        margin: 20px;
+    }
+    .mid-mention {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .mention-img{
+        width: 100%;
+        margin: 30px;
+    }
+    .mention-link a{
+        font-size: 40px;
+    }
+    
+
+    .grayText {
+        column-count: 1;
+        font-size: 20px;
+        padding: 55px 80px;
+    }
+    .para-gap{
+        padding: 40px 0px 0px
+    }
+
+
+    .Third-part {
+        font-size: 20px;
+    }
+    .text {
+        width: 65%;
+    }
+}
+
+/*------------------ Responsive for phone view ------------*/
+
+@media screen and (min-width: 0px) and 
+(max-width: 767px) {
+    
+
+    .First-part {
+        padding: 15px 30px;
+        background-color: black;
+    }
+
+
+    .mid-para {
+        width: 100%;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .mid-brand {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .mid-brand img {
+        margin: 20px;
+    }
+    .mid-mention {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .mention-img{
+        width: 100%;
+        margin: 30px;
+    }
+    .mention-link a{
+        font-size: 40px;
+    }
+    
+
+    .grayText {
+        column-count: 1;
+        font-size: 20px;
+        padding: 55px 30px;
+    }
+    .para-gap{
+        padding: 40px 0px 0px;
+    }
+
+
+    .Third-part {
+        font-size: 20px;
+        padding: 40px 31px;
+    }
+    .text {
+        width: 100%;
+    }
+
+    .Fourth-part {
+        padding: 14px 35px;
+    }
+}
